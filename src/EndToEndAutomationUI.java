@@ -47,8 +47,9 @@ driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStat
 				//driver.findElement(By.name("ctl00$mainContent$btn_FindFlights")).click();
 				driver.findElement(By.xpath("//input[@type='submit']")).click();
 				//driver.findElement(By.cssSelector("input[type='submit']")).click();
-				
+				// Second day working 
+				//driver.findElement(By.id("ctl00_mainContent_btn_FindFlights")).click();
+				//driver.findElement(By.cssSelector("#ctl00_mainContent_btn_FindFlights")).click();
+				//driver.findElement(By.name("ctl00$mainContent$btn_FindFlights")).click();
 						}
-	
-
-}
+	}

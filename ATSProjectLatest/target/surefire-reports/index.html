@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">42 methods, 8 failed,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="MainTest.PerformActivitesTest" class="method navigator-link" hash-for-method="Activities">Activities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Admin.TestDemo" class="method navigator-link" hash-for-method="BrowserLaunch">BrowserLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="JobManagementTest.newjobTest" class="method navigator-link" hash-for-method="EnterNewJob">EnterNewJob</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_MyJob">HD_MyJob</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Admin.TestDemo" class="method navigator-link" hash-for-method="IdentifyDivElements">IdentifyDivElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="MainTest.Activity_ApprovedTest" class="method navigator-link" hash-for-method="Select_DateTime">Select_DateTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="JobManagementTest.MyJobsTest" class="method navigator-link" hash-for-method="VerifyMyJobRecords">VerifyMyJobRecords</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="JobManagementTest.MyJobsTest" class="method navigator-link" hash-for-method="VerifyMyJobTitle">VerifyMyJobTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="MainTest.Activity_ApprovedTest" class="method navigator-link" hash-for-method="BrowserLaunch">BrowserLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="JobManagementTest.newjobTest" class="method navigator-link" hash-for-method="BrowserLaunch">BrowserLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="MainTest.PerformActivitesTest" class="method navigator-link" hash-for-method="BrowserLaunch">BrowserLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="BrowserLaunch">BrowserLaunch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="LaunchBrowserTest.ATSLoginTest" class="method navigator-link" hash-for-method="EnterLoginCredentials">EnterLoginCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_CandidateHotlists">HD_CandidateHotlists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_CandidateList">HD_CandidateList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_CompanyList">HD_CompanyList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_ContactHotlists">HD_ContactHotlists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_CreateGroup">HD_CreateGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_CreateRecruiter">HD_CreateRecruiter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_JobSubmissionReport">HD_JobSubmissionReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_JobsDashboard">HD_JobsDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_ManageDivisions">HD_ManageDivisions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_MasterList">HD_MasterList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_MyContacts">HD_MyContacts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_NewCandidate">HD_NewCandidate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_NewCompany">HD_NewCompany</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_NewContact">HD_NewContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_NewJob">HD_NewJob</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_Notifications">HD_Notifications</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_ProductiveSettings">HD_ProductiveSettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_RecruiterList">HD_RecruiterList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_RecruitersActiveReport">HD_RecruitersActiveReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_RecruitersHiringReport">HD_RecruitersHiringReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_RecruitersInterviewReport">HD_RecruitersInterviewReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_RecruitersSubmissionReport">HD_RecruitersSubmissionReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_ResumeParameters">HD_ResumeParameters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_RoleAdministration">HD_RoleAdministration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_SearchCandidateNotes">HD_SearchCandidateNotes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_SearchCompanies">HD_SearchCompanies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_SearchContacts">HD_SearchContacts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_SearchJobs">HD_SearchJobs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Dashboard.HomeDashboard_LinksTest" class="method navigator-link" hash-for-method="HD_TalentSearch">HD_TalentSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">JobManagementTest.newjobTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterNewJob">
+                  </a> <!-- EnterNewJob -->
+                  <span class="method-name">EnterNewJob</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
+	at JobManagementTest.newjobTest.EnterNewJob(newjobTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Admin.TestDemo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowserLaunch">
+                  </a> <!-- BrowserLaunch -->
+                  <span class="method-name">BrowserLaunch</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Process unexpectedly closed with status 0
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;SIVARAMA-KRISHN&apos;, ip: &apos;192.168.4.80&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:136)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:168)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:156)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:134)
+	at LaunchBrowserTest.ATSLoginTest.BrowserLaunch(ATSLoginTest.java:17)
+	at Admin.TestDemo.BrowserLaunch(TestDemo.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IdentifyDivElements">
+                  </a> <!-- IdentifyDivElements -->
+                  <span class="method-name">IdentifyDivElements</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getWindowHandle()&quot; because &quot;this.driver&quot; is null
+	at Admin.TestDemo.IdentifyDivElements(TestDemo.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Dashboard.HomeDashboard_LinksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_MyJob">
+                  </a> <!-- HD_MyJob -->
+                  <span class="method-name">HD_MyJob</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: My Jobs
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;SIVARAMA-KRISHN&apos;, ip: &apos;192.168.4.80&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230805021307, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11272, moz:profile: C:\Users\SIVARA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6dccf81b-07bb-4501-840b-9ccce4aadebf
+*** Element info: {Using=link text, value=My Jobs}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:391)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:233)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at Dashboard.HomeDashboard_LinksPage.HD_MyJobs_Link(HomeDashboard_LinksPage.java:19)
+	at Dashboard.HomeDashboard_LinksTest.HD_MyJob(HomeDashboard_LinksTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">MainTest.PerformActivitesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Activities">
+                  </a> <!-- Activities -->
+                  <span class="method-name">Activities</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;div class=&quot;img-user-option&quot;&gt; is not clickable at point (1499,25) because another element &lt;div class=&quot;opecity-div&quot;&gt; obscures it
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;SIVARAMA-KRISHN&apos;, ip: &apos;192.168.4.80&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230805021307, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19960, moz:profile: C:\Users\SIVARA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88cfcd21-c61c-48b9-92c0-fdda7d4b6a79
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at MainTest.PerformActivitesTest.Activities(PerformActivitesTest.java:109)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">MainTest.Activity_ApprovedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Select_DateTime">
+                  </a> <!-- Select_DateTime -->
+                  <span class="method-name">Select_DateTime</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;form-group homedashboardtxt&apos;]//a[normalize-space()=&apos;Candidate List&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;SIVARAMA-KRISHN&apos;, ip: &apos;192.168.4.80&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230805021307, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19732, moz:profile: C:\Users\SIVARA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9da2dfad-39c1-4482-8117-d7dbf1233b28
+*** Element info: {Using=xpath, value=//div[@class=&apos;form-group homedashboardtxt&apos;]//a[normalize-space()=&apos;Candidate List&apos;]}
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at MainTest.Activity_ApprovedTest.Select_DateTime(Activity_ApprovedTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">JobManagementTest.MyJobsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMyJobRecords">
+                  </a> <!-- VerifyMyJobRecords -->
+                  <span class="method-name">VerifyMyJobRecords</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at JobManagementTest.MyJobsTest.VerifyMyJobRecords(MyJobsTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMyJobTitle">
+                  </a> <!-- VerifyMyJobTitle -->
+                  <span class="method-name">VerifyMyJobTitle</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null
+	at JobManagementTest.MyJobsTest.VerifyMyJobTitle(MyJobsTest.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JobManagementTest.newjobTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowserLaunch">
+                  </a> <!-- BrowserLaunch -->
+                  <span class="method-name">BrowserLaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Dashboard.HomeDashboard_LinksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowserLaunch">
+                  </a> <!-- BrowserLaunch -->
+                  <span class="method-name">BrowserLaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_CandidateHotlists">
+                  </a> <!-- HD_CandidateHotlists -->
+                  <span class="method-name">HD_CandidateHotlists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_CandidateList">
+                  </a> <!-- HD_CandidateList -->
+                  <span class="method-name">HD_CandidateList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_CompanyList">
+                  </a> <!-- HD_CompanyList -->
+                  <span class="method-name">HD_CompanyList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_ContactHotlists">
+                  </a> <!-- HD_ContactHotlists -->
+                  <span class="method-name">HD_ContactHotlists</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_CreateGroup">
+                  </a> <!-- HD_CreateGroup -->
+                  <span class="method-name">HD_CreateGroup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_CreateRecruiter">
+                  </a> <!-- HD_CreateRecruiter -->
+                  <span class="method-name">HD_CreateRecruiter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_JobSubmissionReport">
+                  </a> <!-- HD_JobSubmissionReport -->
+                  <span class="method-name">HD_JobSubmissionReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_JobsDashboard">
+                  </a> <!-- HD_JobsDashboard -->
+                  <span class="method-name">HD_JobsDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_ManageDivisions">
+                  </a> <!-- HD_ManageDivisions -->
+                  <span class="method-name">HD_ManageDivisions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_MasterList">
+                  </a> <!-- HD_MasterList -->
+                  <span class="method-name">HD_MasterList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_MyContacts">
+                  </a> <!-- HD_MyContacts -->
+                  <span class="method-name">HD_MyContacts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_NewCandidate">
+                  </a> <!-- HD_NewCandidate -->
+                  <span class="method-name">HD_NewCandidate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_NewCompany">
+                  </a> <!-- HD_NewCompany -->
+                  <span class="method-name">HD_NewCompany</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_NewContact">
+                  </a> <!-- HD_NewContact -->
+                  <span class="method-name">HD_NewContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_NewJob">
+                  </a> <!-- HD_NewJob -->
+                  <span class="method-name">HD_NewJob</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_Notifications">
+                  </a> <!-- HD_Notifications -->
+                  <span class="method-name">HD_Notifications</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_ProductiveSettings">
+                  </a> <!-- HD_ProductiveSettings -->
+                  <span class="method-name">HD_ProductiveSettings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_RecruiterList">
+                  </a> <!-- HD_RecruiterList -->
+                  <span class="method-name">HD_RecruiterList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_RecruitersActiveReport">
+                  </a> <!-- HD_RecruitersActiveReport -->
+                  <span class="method-name">HD_RecruitersActiveReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_RecruitersHiringReport">
+                  </a> <!-- HD_RecruitersHiringReport -->
+                  <span class="method-name">HD_RecruitersHiringReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_RecruitersInterviewReport">
+                  </a> <!-- HD_RecruitersInterviewReport -->
+                  <span class="method-name">HD_RecruitersInterviewReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_RecruitersSubmissionReport">
+                  </a> <!-- HD_RecruitersSubmissionReport -->
+                  <span class="method-name">HD_RecruitersSubmissionReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_ResumeParameters">
+                  </a> <!-- HD_ResumeParameters -->
+                  <span class="method-name">HD_ResumeParameters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_RoleAdministration">
+                  </a> <!-- HD_RoleAdministration -->
+                  <span class="method-name">HD_RoleAdministration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_SearchCandidateNotes">
+                  </a> <!-- HD_SearchCandidateNotes -->
+                  <span class="method-name">HD_SearchCandidateNotes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_SearchCompanies">
+                  </a> <!-- HD_SearchCompanies -->
+                  <span class="method-name">HD_SearchCompanies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_SearchContacts">
+                  </a> <!-- HD_SearchContacts -->
+                  <span class="method-name">HD_SearchContacts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_SearchJobs">
+                  </a> <!-- HD_SearchJobs -->
+                  <span class="method-name">HD_SearchJobs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HD_TalentSearch">
+                  </a> <!-- HD_TalentSearch -->
+                  <span class="method-name">HD_TalentSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainTest.PerformActivitesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowserLaunch">
+                  </a> <!-- BrowserLaunch -->
+                  <span class="method-name">BrowserLaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainTest.Activity_ApprovedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BrowserLaunch">
+                  </a> <!-- BrowserLaunch -->
+                  <span class="method-name">BrowserLaunch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LaunchBrowserTest.ATSLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterLoginCredentials">
+                  </a> <!-- EnterLoginCredentials -->
+                  <span class="method-name">EnterLoginCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Admin.TestDemo&quot;/&gt;
+      &lt;class name=&quot;Dashboard.HomeDashboard_LinksTest&quot;/&gt;
+      &lt;class name=&quot;Demo2.HomeTest&quot;/&gt;
+      &lt;class name=&quot;JobManagementTest.MyJobsTest&quot;/&gt;
+      &lt;class name=&quot;JobManagementTest.newjobTest&quot;/&gt;
+      &lt;class name=&quot;LaunchBrowserTest.ATSLoginTest&quot;/&gt;
+      &lt;class name=&quot;MainTest.Activity_ApprovedTest&quot;/&gt;
+      &lt;class name=&quot;MainTest.PerformActivitesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(42);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Activities')
+data.setCell(0, 2, 'MainTest.PerformActivitesTest')
+data.setCell(0, 3, 19886);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'BrowserLaunch')
+data.setCell(1, 2, 'MainTest.PerformActivitesTest')
+data.setCell(1, 3, 18232);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'BrowserLaunch')
+data.setCell(2, 2, 'MainTest.Activity_ApprovedTest')
+data.setCell(2, 3, 13735);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'BrowserLaunch')
+data.setCell(3, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(3, 3, 12621);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'BrowserLaunch')
+data.setCell(4, 2, 'JobManagementTest.newjobTest')
+data.setCell(4, 3, 12244);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'HD_NewJob')
+data.setCell(5, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(5, 3, 5937);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'HD_MyJob')
+data.setCell(6, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(6, 3, 5143);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Select_DateTime')
+data.setCell(7, 2, 'MainTest.Activity_ApprovedTest')
+data.setCell(7, 3, 5060);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'HD_JobSubmissionReport')
+data.setCell(8, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(8, 3, 4255);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'HD_SearchJobs')
+data.setCell(9, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(9, 3, 4114);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'HD_RecruitersSubmissionReport')
+data.setCell(10, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(10, 3, 3844);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'HD_Notifications')
+data.setCell(11, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(11, 3, 3702);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'HD_ContactHotlists')
+data.setCell(12, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(12, 3, 3701);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'HD_CandidateHotlists')
+data.setCell(13, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(13, 3, 3659);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'HD_NewCandidate')
+data.setCell(14, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(14, 3, 3658);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'HD_CandidateList')
+data.setCell(15, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(15, 3, 3657);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'HD_MasterList')
+data.setCell(16, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(16, 3, 3642);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'HD_SearchContacts')
+data.setCell(17, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(17, 3, 3633);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'HD_MyContacts')
+data.setCell(18, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(18, 3, 3632);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'HD_SearchCandidateNotes')
+data.setCell(19, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(19, 3, 3605);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'HD_JobsDashboard')
+data.setCell(20, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(20, 3, 3573);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'HD_RoleAdministration')
+data.setCell(21, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(21, 3, 3571);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'HD_NewContact')
+data.setCell(22, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(22, 3, 3548);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'HD_NewCompany')
+data.setCell(23, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(23, 3, 3536);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'HD_CreateGroup')
+data.setCell(24, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(24, 3, 3529);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'HD_SearchCompanies')
+data.setCell(25, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(25, 3, 3525);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'HD_CompanyList')
+data.setCell(26, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(26, 3, 3524);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'HD_TalentSearch')
+data.setCell(27, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(27, 3, 3517);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'HD_ProductiveSettings')
+data.setCell(28, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(28, 3, 3500);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'HD_CreateRecruiter')
+data.setCell(29, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(29, 3, 3499);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'HD_RecruitersActiveReport')
+data.setCell(30, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(30, 3, 3475);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'HD_ResumeParameters')
+data.setCell(31, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(31, 3, 3468);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'HD_RecruitersInterviewReport')
+data.setCell(32, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(32, 3, 3467);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'HD_ManageDivisions')
+data.setCell(33, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(33, 3, 3442);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'HD_RecruiterList')
+data.setCell(34, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(34, 3, 3440);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'HD_RecruitersHiringReport')
+data.setCell(35, 2, 'Dashboard.HomeDashboard_LinksTest')
+data.setCell(35, 3, 3434);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'IdentifyDivElements')
+data.setCell(36, 2, 'Admin.TestDemo')
+data.setCell(36, 3, 3014);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'BrowserLaunch')
+data.setCell(37, 2, 'Admin.TestDemo')
+data.setCell(37, 3, 2714);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'VerifyMyJobRecords')
+data.setCell(38, 2, 'JobManagementTest.MyJobsTest')
+data.setCell(38, 3, 2014);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'EnterNewJob')
+data.setCell(39, 2, 'JobManagementTest.newjobTest')
+data.setCell(39, 3, 2009);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'VerifyMyJobTitle')
+data.setCell(40, 2, 'JobManagementTest.MyJobsTest')
+data.setCell(40, 3, 2008);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'EnterLoginCredentials')
+data.setCell(41, 2, 'LaunchBrowserTest.ATSLoginTest')
+data.setCell(41, 3, 518);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Admin.TestDemo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BrowserLaunch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">IdentifyDivElements</span>
+                <span class="method-start">2725 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Dashboard.HomeDashboard_LinksTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BrowserLaunch</span>
+                <span class="method-start">5741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">HD_MyJob</span>
+                <span class="method-start">18363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_NewJob</span>
+                <span class="method-start">23509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_SearchJobs</span>
+                <span class="method-start">29447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_JobsDashboard</span>
+                <span class="method-start">33564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_JobSubmissionReport</span>
+                <span class="method-start">37137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_RecruitersSubmissionReport</span>
+                <span class="method-start">41393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_RecruitersInterviewReport</span>
+                <span class="method-start">45238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_RecruitersHiringReport</span>
+                <span class="method-start">48706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_RecruitersActiveReport</span>
+                <span class="method-start">52141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_TalentSearch</span>
+                <span class="method-start">55617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_NewCandidate</span>
+                <span class="method-start">59135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_CandidateHotlists</span>
+                <span class="method-start">62793 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_SearchCandidateNotes</span>
+                <span class="method-start">66456 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_CandidateList</span>
+                <span class="method-start">70062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_CreateRecruiter</span>
+                <span class="method-start">73720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_RecruiterList</span>
+                <span class="method-start">77220 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_RoleAdministration</span>
+                <span class="method-start">80660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_CreateGroup</span>
+                <span class="method-start">84233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_ManageDivisions</span>
+                <span class="method-start">87763 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_ResumeParameters</span>
+                <span class="method-start">91206 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_MasterList</span>
+                <span class="method-start">94675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_Notifications</span>
+                <span class="method-start">98318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_ProductiveSettings</span>
+                <span class="method-start">102021 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_MyContacts</span>
+                <span class="method-start">105522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_SearchContacts</span>
+                <span class="method-start">109154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_NewContact</span>
+                <span class="method-start">112787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_CompanyList</span>
+                <span class="method-start">116335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_SearchCompanies</span>
+                <span class="method-start">119860 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_NewCompany</span>
+                <span class="method-start">123386 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HD_ContactHotlists</span>
+                <span class="method-start">126922 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JobManagementTest.MyJobsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserLaunch</span>
+                <span class="method-start">130624 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyMyJobRecords</span>
+                <span class="method-start">140647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserLaunch</span>
+                <span class="method-start">142663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyMyJobTitle</span>
+                <span class="method-start">155360 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JobManagementTest.newjobTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BrowserLaunch</span>
+                <span class="method-start">157369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EnterNewJob</span>
+                <span class="method-start">169614 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LaunchBrowserTest.ATSLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserLaunch</span>
+                <span class="method-start">171625 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnterLoginCredentials</span>
+                <span class="method-start">185121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">185640 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainTest.Activity_ApprovedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BrowserLaunch</span>
+                <span class="method-start">190413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Select_DateTime</span>
+                <span class="method-start">204148 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainTest.PerformActivitesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BrowserLaunch</span>
+                <span class="method-start">209214 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Activities</span>
+                <span class="method-start">227446 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

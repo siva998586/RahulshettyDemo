@@ -1,0 +1,63 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 42, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 248.424 s <<< FAILURE! - in TestSuite
+BrowserLaunch(Admin.TestDemo)  Time elapsed: 2.723 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SIVARAMA-KRISHN', ip: '192.168.4.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at Admin.TestDemo.BrowserLaunch(TestDemo.java:26)
+
+IdentifyDivElements(Admin.TestDemo)  Time elapsed: 3.014 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getWindowHandle()" because "this.driver" is null
+	at Admin.TestDemo.IdentifyDivElements(TestDemo.java:34)
+
+HD_MyJob(Dashboard.HomeDashboard_LinksTest)  Time elapsed: 5.156 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: My Jobs
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SIVARAMA-KRISHN', ip: '192.168.4.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230805021307, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11272, moz:profile: C:\Users\SIVARA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6dccf81b-07bb-4501-840b-9ccce4aadebf
+*** Element info: {Using=link text, value=My Jobs}
+	at Dashboard.HomeDashboard_LinksTest.HD_MyJob(HomeDashboard_LinksTest.java:25)
+
+VerifyMyJobRecords(JobManagementTest.MyJobsTest)  Time elapsed: 2.014 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at JobManagementTest.MyJobsTest.VerifyMyJobRecords(MyJobsTest.java:30)
+
+VerifyMyJobTitle(JobManagementTest.MyJobsTest)  Time elapsed: 2.008 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at JobManagementTest.MyJobsTest.VerifyMyJobTitle(MyJobsTest.java:38)
+
+EnterNewJob(JobManagementTest.newjobTest)  Time elapsed: 2.009 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at JobManagementTest.newjobTest.EnterNewJob(newjobTest.java:27)
+
+Select_DateTime(MainTest.Activity_ApprovedTest)  Time elapsed: 5.066 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@class='form-group homedashboardtxt']//a[normalize-space()='Candidate List']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SIVARAMA-KRISHN', ip: '192.168.4.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230805021307, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19732, moz:profile: C:\Users\SIVARA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9da2dfad-39c1-4482-8117-d7dbf1233b28
+*** Element info: {Using=xpath, value=//div[@class='form-group homedashboardtxt']//a[normalize-space()='Candidate List']}
+	at MainTest.Activity_ApprovedTest.Select_DateTime(Activity_ApprovedTest.java:29)
+
+Activities(MainTest.PerformActivitesTest)  Time elapsed: 19.887 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <div class="img-user-option"> is not clickable at point (1499,25) because another element <div class="opecity-div"> obscures it
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SIVARAMA-KRISHN', ip: '192.168.4.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230805021307, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19960, moz:profile: C:\Users\SIVARA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88cfcd21-c61c-48b9-92c0-fdda7d4b6a79
+	at MainTest.PerformActivitesTest.Activities(PerformActivitesTest.java:109)
+

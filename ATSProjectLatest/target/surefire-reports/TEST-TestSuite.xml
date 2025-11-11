@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="248.424" tests="42" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Sivarama Krishna\eclipse-workspace\ATSProject\target\test-classes;C:\Users\Sivarama Krishna\eclipse-workspace\ATSProject\target\classes;C:\Users\Sivarama Krishna\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Sivarama Krishna\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Sivarama Krishna\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-5\selenium-java-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-5\selenium-api-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-5\selenium-chrome-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc6\auto-service-annotations-1.0-rc6.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\auto\service\auto-service\1.0-rc6\auto-service-1.0-rc6.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-5\selenium-chromium-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-5\selenium-devtools-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-5\selenium-http-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-5\selenium-json-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-5\selenium-edge-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-5\selenium-edgehtml-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-5\selenium-firefox-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-5\selenium-firefox-xpi-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-5\selenium-ie-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-5\selenium-opera-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-5\selenium-remote-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\com\squareup\okhttp3\okhttp\4.4.1\okhttp-4.4.1.jar;C:\Users\Sivarama Krishna\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.61\kotlin-stdlib-1.3.61.jar;C:\Users\Sivarama Krishna\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Sivarama Krishna\.m2\repository\com\squareup\okio\okio\2.4.3\okio-2.4.3.jar;C:\Users\Sivarama Krishna\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.61\kotlin-stdlib-common-1.3.61.jar;C:\Users\Sivarama Krishna\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-buffer\4.1.47.Final\netty-buffer-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-common\4.1.47.Final\netty-common-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-codec-http\4.1.47.Final\netty-codec-http-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-codec\4.1.47.Final\netty-codec-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-transport-native-epoll\4.1.47.Final\netty-transport-native-epoll-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-transport-native-epoll\4.1.47.Final\netty-transport-native-epoll-4.1.47.Final-linux-x86_64.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.47.Final\netty-transport-native-kqueue-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.47.Final\netty-transport-native-kqueue-4.1.47.Final-osx-x86_64.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.47.Final\netty-transport-native-unix-common-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-transport\4.1.47.Final\netty-transport-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-resolver\4.1.47.Final\netty-resolver-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\opentelemetry\opentelemetry-api\0.2.0\opentelemetry-api-0.2.0.jar;C:\Users\Sivarama Krishna\.m2\repository\io\grpc\grpc-context\1.24.0\grpc-context-1.24.0.jar;C:\Users\Sivarama Krishna\.m2\repository\net\bytebuddy\byte-buddy\1.10.8\byte-buddy-1.10.8.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sivarama Krishna\.m2\repository\org\asynchttpclient\async-http-client\2.11.0\async-http-client-2.11.0.jar;C:\Users\Sivarama Krishna\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.11.0\async-http-client-netty-utils-2.11.0.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-codec-socks\4.1.46.Final\netty-codec-socks-4.1.46.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-handler-proxy\4.1.46.Final\netty-handler-proxy-4.1.46.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-5\selenium-safari-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-5\selenium-support-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Sivarama Krishna\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Sivarama Krishna\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Sivarama Krishna\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Sivarama Krishna\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Sivarama Krishna\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Sivarama Krishna\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\Sivarama Krishna\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\Sivarama Krishna\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Sivarama Krishna\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\Sivarama Krishna\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\Sivarama Krishna\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\Sivarama Krishna\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Sivarama Krishna\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Sivarama Krishna\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Sivarama Krishna\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Sivarama Krishna\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Sivarama Krishna\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Sivarama Krishna\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Sivarama Krishna\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Sivarama Krishna\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\Sivarama Krishna\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Sivarama Krishna\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sivarama Krishna\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sivarama Krishna\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Sivarama Krishna\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Sivarama Krishna\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Sivarama Krishna\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Sivarama Krishna\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Sivarama Krishna\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\SIVARA~1\AppData\Local\Temp\surefire12649470850204847671\surefirebooter2424723124298262589.jar C:\Users\Sivarama Krishna\AppData\Local\Temp\surefire12649470850204847671 2023-11-09T18-00-08_010-jvmRun1 surefire17241328520746218986tmp surefire_015898978376282340275tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Sivarama Krishna\eclipse-workspace\ATSProject\target\test-classes;C:\Users\Sivarama Krishna\eclipse-workspace\ATSProject\target\classes;C:\Users\Sivarama Krishna\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Sivarama Krishna\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Sivarama Krishna\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-5\selenium-java-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-5\selenium-api-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-5\selenium-chrome-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc6\auto-service-annotations-1.0-rc6.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\auto\service\auto-service\1.0-rc6\auto-service-1.0-rc6.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-5\selenium-chromium-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-5\selenium-devtools-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-5\selenium-http-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-5\selenium-json-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-5\selenium-edge-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-5\selenium-edgehtml-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-5\selenium-firefox-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-5\selenium-firefox-xpi-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-5\selenium-ie-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-5\selenium-opera-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-5\selenium-remote-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\com\squareup\okhttp3\okhttp\4.4.1\okhttp-4.4.1.jar;C:\Users\Sivarama Krishna\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.61\kotlin-stdlib-1.3.61.jar;C:\Users\Sivarama Krishna\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Sivarama Krishna\.m2\repository\com\squareup\okio\okio\2.4.3\okio-2.4.3.jar;C:\Users\Sivarama Krishna\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.61\kotlin-stdlib-common-1.3.61.jar;C:\Users\Sivarama Krishna\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-buffer\4.1.47.Final\netty-buffer-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-common\4.1.47.Final\netty-common-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-codec-http\4.1.47.Final\netty-codec-http-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-codec\4.1.47.Final\netty-codec-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-transport-native-epoll\4.1.47.Final\netty-transport-native-epoll-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-transport-native-epoll\4.1.47.Final\netty-transport-native-epoll-4.1.47.Final-linux-x86_64.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.47.Final\netty-transport-native-kqueue-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.47.Final\netty-transport-native-kqueue-4.1.47.Final-osx-x86_64.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.47.Final\netty-transport-native-unix-common-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-transport\4.1.47.Final\netty-transport-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-resolver\4.1.47.Final\netty-resolver-4.1.47.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\opentelemetry\opentelemetry-api\0.2.0\opentelemetry-api-0.2.0.jar;C:\Users\Sivarama Krishna\.m2\repository\io\grpc\grpc-context\1.24.0\grpc-context-1.24.0.jar;C:\Users\Sivarama Krishna\.m2\repository\net\bytebuddy\byte-buddy\1.10.8\byte-buddy-1.10.8.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sivarama Krishna\.m2\repository\org\asynchttpclient\async-http-client\2.11.0\async-http-client-2.11.0.jar;C:\Users\Sivarama Krishna\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.11.0\async-http-client-netty-utils-2.11.0.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-codec-socks\4.1.46.Final\netty-codec-socks-4.1.46.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\io\netty\netty-handler-proxy\4.1.46.Final\netty-handler-proxy-4.1.46.Final.jar;C:\Users\Sivarama Krishna\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-5\selenium-safari-driver-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-5\selenium-support-4.0.0-alpha-5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Sivarama Krishna\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Sivarama Krishna\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Sivarama Krishna\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Sivarama Krishna\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Sivarama Krishna\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Sivarama Krishna\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\Sivarama Krishna\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\Sivarama Krishna\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Sivarama Krishna\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\Sivarama Krishna\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\Sivarama Krishna\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\Sivarama Krishna\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Sivarama Krishna\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Sivarama Krishna\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Sivarama Krishna\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Sivarama Krishna\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Sivarama Krishna\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Sivarama Krishna\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Sivarama Krishna\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Sivarama Krishna\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\Sivarama Krishna\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Sivarama Krishna\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sivarama Krishna\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\Sivarama Krishna\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sivarama Krishna\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Sivarama Krishna\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\Sivarama Krishna\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Sivarama Krishna\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Sivarama Krishna\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Sivarama Krishna\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Sivarama Krishna\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Sivarama Krishna\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sivarama Krishna"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Sivarama Krishna\eclipse-workspace\ATSProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\SIVARA~1\AppData\Local\Temp\surefire12649470850204847671\surefirebooter2424723124298262589.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="Sivarama Krishna"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Sivarama Krishna\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SIVARA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Users\Sivarama Krishna\eclipse-workspace\ATSProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\Sivarama Krishna\AppData\Local\Microsoft\WindowsApps;C:\Users\Sivarama Krishna\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="BrowserLaunch" classname="Admin.TestDemo" time="2.723">
+    <failure message="Process unexpectedly closed with status 0&#10;Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;&#10;System info: host: &apos;SIVARAMA-KRISHN&apos;, ip: &apos;192.168.4.80&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: " type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Process unexpectedly closed with status 0
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SIVARAMA-KRISHN', ip: '192.168.4.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at Admin.TestDemo.BrowserLaunch(TestDemo.java:26)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+1699533011117	geckodriver	INFO	Listening on 127.0.0.1:25434
+1699533011714	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SIVARA~1\\AppData\\Local\\Temp\\rust_mozprofileWqiMIF"
+]]></system-err>
+  </testcase>
+  <testcase name="IdentifyDivElements" classname="Admin.TestDemo" time="3.014">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.getWindowHandle()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getWindowHandle()" because "this.driver" is null
+	at Admin.TestDemo.IdentifyDivElements(TestDemo.java:34)
+</failure>
+  </testcase>
+  <testcase name="BrowserLaunch" classname="Dashboard.HomeDashboard_LinksTest" time="12.621"/>
+  <testcase name="HD_MyJob" classname="Dashboard.HomeDashboard_LinksTest" time="5.156">
+    <failure message="Unable to locate element: My Jobs&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;&#10;System info: host: &apos;SIVARAMA-KRISHN&apos;, ip: &apos;192.168.4.80&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230805021307, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11272, moz:profile: C:\Users\SIVARA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6dccf81b-07bb-4501-840b-9ccce4aadebf&#10;*** Element info: {Using=link text, value=My Jobs}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: My Jobs
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SIVARAMA-KRISHN', ip: '192.168.4.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230805021307, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11272, moz:profile: C:\Users\SIVARA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6dccf81b-07bb-4501-840b-9ccce4aadebf
+*** Element info: {Using=link text, value=My Jobs}
+	at Dashboard.HomeDashboard_LinksTest.HD_MyJob(HomeDashboard_LinksTest.java:25)
+</failure>
+  </testcase>
+  <testcase name="HD_NewJob" classname="Dashboard.HomeDashboard_LinksTest" time="5.929"/>
+  <testcase name="HD_SearchJobs" classname="Dashboard.HomeDashboard_LinksTest" time="4.117"/>
+  <testcase name="HD_JobsDashboard" classname="Dashboard.HomeDashboard_LinksTest" time="3.577"/>
+  <testcase name="HD_JobSubmissionReport" classname="Dashboard.HomeDashboard_LinksTest" time="4.252"/>
+  <testcase name="HD_RecruitersSubmissionReport" classname="Dashboard.HomeDashboard_LinksTest" time="3.843"/>
+  <testcase name="HD_RecruitersInterviewReport" classname="Dashboard.HomeDashboard_LinksTest" time="3.466"/>
+  <testcase name="HD_RecruitersHiringReport" classname="Dashboard.HomeDashboard_LinksTest" time="3.44"/>
+  <testcase name="HD_RecruitersActiveReport" classname="Dashboard.HomeDashboard_LinksTest" time="3.471"/>
+  <testcase name="HD_TalentSearch" classname="Dashboard.HomeDashboard_LinksTest" time="3.518"/>
+  <testcase name="HD_NewCandidate" classname="Dashboard.HomeDashboard_LinksTest" time="3.652"/>
+  <testcase name="HD_CandidateHotlists" classname="Dashboard.HomeDashboard_LinksTest" time="3.661"/>
+  <testcase name="HD_SearchCandidateNotes" classname="Dashboard.HomeDashboard_LinksTest" time="3.604"/>
+  <testcase name="HD_CandidateList" classname="Dashboard.HomeDashboard_LinksTest" time="3.658"/>
+  <testcase name="HD_CreateRecruiter" classname="Dashboard.HomeDashboard_LinksTest" time="3.504"/>
+  <testcase name="HD_RecruiterList" classname="Dashboard.HomeDashboard_LinksTest" time="3.44"/>
+  <testcase name="HD_RoleAdministration" classname="Dashboard.HomeDashboard_LinksTest" time="3.571"/>
+  <testcase name="HD_CreateGroup" classname="Dashboard.HomeDashboard_LinksTest" time="3.529"/>
+  <testcase name="HD_ManageDivisions" classname="Dashboard.HomeDashboard_LinksTest" time="3.447"/>
+  <testcase name="HD_ResumeParameters" classname="Dashboard.HomeDashboard_LinksTest" time="3.472"/>
+  <testcase name="HD_MasterList" classname="Dashboard.HomeDashboard_LinksTest" time="3.634"/>
+  <testcase name="HD_Notifications" classname="Dashboard.HomeDashboard_LinksTest" time="3.702"/>
+  <testcase name="HD_ProductiveSettings" classname="Dashboard.HomeDashboard_LinksTest" time="3.499"/>
+  <testcase name="HD_MyContacts" classname="Dashboard.HomeDashboard_LinksTest" time="3.631"/>
+  <testcase name="HD_SearchContacts" classname="Dashboard.HomeDashboard_LinksTest" time="3.632"/>
+  <testcase name="HD_NewContact" classname="Dashboard.HomeDashboard_LinksTest" time="3.55"/>
+  <testcase name="HD_CompanyList" classname="Dashboard.HomeDashboard_LinksTest" time="3.522"/>
+  <testcase name="HD_SearchCompanies" classname="Dashboard.HomeDashboard_LinksTest" time="3.527"/>
+  <testcase name="HD_NewCompany" classname="Dashboard.HomeDashboard_LinksTest" time="3.535"/>
+  <testcase name="HD_ContactHotlists" classname="Dashboard.HomeDashboard_LinksTest" time="3.701"/>
+  <testcase name="VerifyMyJobRecords" classname="JobManagementTest.MyJobsTest" time="2.014">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at JobManagementTest.MyJobsTest.VerifyMyJobRecords(MyJobsTest.java:30)
+</failure>
+    <system-err><![CDATA[1699533140678	geckodriver	INFO	Listening on 127.0.0.1:28689
+1699533140806	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SIVARA~1\\AppData\\Local\\Temp\\rust_mozprofileL1z9t1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699533141952	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699533142161	Marionette	INFO	Listening on port 56726
+Read port: 56726
+1699533142664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Nov 09, 2023 6:02:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Parent 16372, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15604, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+]]></system-err>
+  </testcase>
+  <testcase name="VerifyMyJobTitle" classname="JobManagementTest.MyJobsTest" time="2.008">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at JobManagementTest.MyJobsTest.VerifyMyJobTitle(MyJobsTest.java:38)
+</failure>
+    <system-err><![CDATA[1699533152738	geckodriver	INFO	Listening on 127.0.0.1:44955
+1699533152819	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\SIVARA~1\\AppData\\Local\\Temp\\rust_mozprofileWIEYaX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699533154151	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699533154501	Marionette	INFO	Listening on port 56996
+Read port: 56996
+1699533155131	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.1.96/static/js/9694.a1dc575f.chunk.js, line 1: TypeError: a.data.data.result[0] is undefined
+Nov 09, 2023 6:02:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Parent 17948, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 18196, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+]]></system-err>
+  </testcase>
+  <testcase name="BrowserLaunch" classname="JobManagementTest.newjobTest" time="12.245"/>
+  <testcase name="EnterNewJob" classname="JobManagementTest.newjobTest" time="2.009">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at JobManagementTest.newjobTest.EnterNewJob(newjobTest.java:27)
+</failure>
+  </testcase>
+  <testcase name="EnterLoginCredentials" classname="LaunchBrowserTest.ATSLoginTest" time="0.519"/>
+  <testcase name="BrowserLaunch" classname="MainTest.Activity_ApprovedTest" time="13.736"/>
+  <testcase name="Select_DateTime" classname="MainTest.Activity_ApprovedTest" time="5.066">
+    <failure message="Unable to locate element: //div[@class=&apos;form-group homedashboardtxt&apos;]//a[normalize-space()=&apos;Candidate List&apos;]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;&#10;System info: host: &apos;SIVARAMA-KRISHN&apos;, ip: &apos;192.168.4.80&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230805021307, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19732, moz:profile: C:\Users\SIVARA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9da2dfad-39c1-4482-8117-d7dbf1233b28&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;form-group homedashboardtxt&apos;]//a[normalize-space()=&apos;Candidate List&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@class='form-group homedashboardtxt']//a[normalize-space()='Candidate List']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SIVARAMA-KRISHN', ip: '192.168.4.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230805021307, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19732, moz:profile: C:\Users\SIVARA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9da2dfad-39c1-4482-8117-d7dbf1233b28
+*** Element info: {Using=xpath, value=//div[@class='form-group homedashboardtxt']//a[normalize-space()='Candidate List']}
+	at MainTest.Activity_ApprovedTest.Select_DateTime(Activity_ApprovedTest.java:29)
+</failure>
+    <system-err><![CDATA[[Parent 19732, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 19848, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+JavaScript warning: http://192.168.1.96/static/js/main.bec9c316.js, line 2: Script terminated by timeout at:
+M@http://192.168.1.96/static/js/main.bec9c316.js:2:152339
+Yt@http://192.168.1.96/static/js/main.bec9c316.js:2:60579
+
+1699533216814	Marionette	INFO	Stopped listening on port 56726
+Dynamically enable window occlusion 1
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+[Parent 16372, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15604, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+[Parent 16372, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15604, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+[Parent 16372, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15604, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download[Parent 16372, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chrom attachment:ium/src/chrome/common/ipc_channel_win.cc:621
+[GPU 15604, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: TypeError: NetworkError: Network request failed
+]]></system-err>
+  </testcase>
+  <testcase name="BrowserLaunch" classname="MainTest.PerformActivitesTest" time="18.23"/>
+  <testcase name="Activities" classname="MainTest.PerformActivitesTest" time="19.887">
+    <failure message="Element &lt;div class=&quot;img-user-option&quot;&gt; is not clickable at point (1499,25) because another element &lt;div class=&quot;opecity-div&quot;&gt; obscures it&#10;Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;&#10;System info: host: &apos;SIVARAMA-KRISHN&apos;, ip: &apos;192.168.4.80&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230805021307, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19960, moz:profile: C:\Users\SIVARA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 88cfcd21-c61c-48b9-92c0-fdda7d4b6a79" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <div class="img-user-option"> is not clickable at point (1499,25) because another element <div class="opecity-div"> obscures it
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SIVARAMA-KRISHN', ip: '192.168.4.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 116.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230805021307, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19960, moz:profile: C:\Users\SIVARA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88cfcd21-c61c-48b9-92c0-fdda7d4b6a79
+	at MainTest.PerformActivitesTest.Activities(PerformActivitesTest.java:109)
+]]></failure>
+    <system-out><![CDATA[Activities
+mainwindow =6bd35f89-50ee-4ff4-b892-b5297b9f799e
+Activity Submitted Successfully!
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: http://192.168.1.96/static/js/9694.a1dc575f.chunk.js, line 1: TypeError: a.data.data.result[0] is undefined
+JavaScript error: http://192.168.1.96/static/js/9694.a1dc575f.chunk.js, line 1: TypeError: t.state.client is undefined
+JavaScript error: http://192.168.1.96/static/js/9694.a1dc575f.chunk.js, line 1: TypeError: t.state.client_requirement is undefined
+JavaScript error: http://192.168.1.96/static/js/main.bec9c316.js, line 2: Error: Request failed with status code 500
+JavaScript error: http://192.168.1.96/static/js/main.bec9c316.js, line 2: Error: Request failed with status code 500
+JavaScript error: http://192.168.1.96/static/js/main.bec9c316.js, line 2: Error: Request aborted
+JavaScript error: http://192.168.1.96/static/js/main.bec9c316.js, line 2: Error: Request aborted
+JavaScript error: http://192.168.1.96/static/js/main.bec9c316.js, line 2: Error: Request aborted
+]]></system-err>
+  </testcase>
+</testsuite>

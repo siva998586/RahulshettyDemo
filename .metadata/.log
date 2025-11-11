@@ -104,3 +104,793 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-11-10 20:04:14.730 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\Sivarama Krishna\RahulshettyDemo -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2025-11-10 20:04:29.150
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-11-10 20:04:29.150
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b2d58e6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@708f7386,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-11-10 20:04:29.150
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@377e90b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27b490de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-10 20:04:37.267
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Sivarama Krishna'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-11-10 20:09:56.022 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data C:\Users\Sivarama Krishna\RahulshettyDemo -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2025-11-10 20:10:01.147
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-11-10 20:10:01.147
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b2d58e6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@708f7386,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-11-10 20:10:01.147
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@377e90b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27b490de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-10 20:10:04.793
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Sivarama Krishna'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-11-10 20:15:02.670 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.12
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2025-11-10 20:15:28.718
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-11-10 20:15:28.718
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5bf7f15f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14b26e90,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-11-10 20:15:28.718
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11309dd4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f4d05b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-10 20:15:33.966
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Sivarama Krishna'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:38.985
+!MESSAGE Launch configuration AdvancedIterationArray references non-existing project UdemyJavaProgramming.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AdvancedIterationArray references non-existing project UdemyJavaProgramming.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:38.986
+!MESSAGE Launch configuration AdvancedIterationArray references non-existing project UdemyJavaProgramming.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:38.991
+!MESSAGE Launch configuration ArrayIteration references non-existing project UdemyJavaProgramming.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration ArrayIteration references non-existing project UdemyJavaProgramming.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:38.991
+!MESSAGE Launch configuration ArrayIteration references non-existing project UdemyJavaProgramming.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:38.997
+!MESSAGE Launch configuration Arraytype references non-existing project UdemyJavaProgramming.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Arraytype references non-existing project UdemyJavaProgramming.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:38.997
+!MESSAGE Launch configuration Arraytype references non-existing project UdemyJavaProgramming.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:39.005
+!MESSAGE Launch configuration Browsers references non-existing project MavenProject.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Browsers references non-existing project MavenProject.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:39.006
+!MESSAGE Launch configuration Browsers references non-existing project MavenProject.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:39.012
+!MESSAGE Launch configuration Converter references non-existing project MavenProject.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Converter references non-existing project MavenProject.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:39.012
+!MESSAGE Launch configuration Converter references non-existing project MavenProject.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:39.017
+!MESSAGE Launch configuration DynamicArrayList references non-existing project UdemyJavaProgramming.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration DynamicArrayList references non-existing project UdemyJavaProgramming.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:39.018
+!MESSAGE Launch configuration DynamicArrayList references non-existing project UdemyJavaProgramming.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:39.022
+!MESSAGE Launch configuration LaunchBrowser references non-existing project MavenProject.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration LaunchBrowser references non-existing project MavenProject.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:39.022
+!MESSAGE Launch configuration LaunchBrowser references non-existing project MavenProject.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:39.027
+!MESSAGE Launch configuration LaunchingBrowser references non-existing project QA.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration LaunchingBrowser references non-existing project QA.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:39.028
+!MESSAGE Launch configuration LaunchingBrowser references non-existing project QA.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:39.032
+!MESSAGE Launch configuration PageObjectModel-master_PageObjectModel-master.target.classes.testng_sanity.xml references non-existing project PageObjectModel-master.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration PageObjectModel-master_PageObjectModel-master.target.classes.testng_sanity.xml references non-existing project PageObjectModel-master.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:39.032
+!MESSAGE Launch configuration PageObjectModel-master_PageObjectModel-master.target.classes.testng_sanity.xml references non-existing project PageObjectModel-master.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:39.039
+!MESSAGE Launch configuration StringwithArray references non-existing project UdemyJavaProgramming.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration StringwithArray references non-existing project UdemyJavaProgramming.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:39.039
+!MESSAGE Launch configuration StringwithArray references non-existing project UdemyJavaProgramming.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:39.044
+!MESSAGE Launch configuration Varibles references non-existing project UdemyJavaProgramming.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Varibles references non-existing project UdemyJavaProgramming.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:39.044
+!MESSAGE Launch configuration Varibles references non-existing project UdemyJavaProgramming.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:39.050
+!MESSAGE Launch configuration forifelseloopUsingArray references non-existing project UdemyJavaProgramming.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration forifelseloopUsingArray references non-existing project UdemyJavaProgramming.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:39.050
+!MESSAGE Launch configuration forifelseloopUsingArray references non-existing project UdemyJavaProgramming.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-11-10 20:21:39.055
+!MESSAGE Launch configuration mainCalssmethod references non-existing project UdemyJavaProgramming.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration mainCalssmethod references non-existing project UdemyJavaProgramming.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1736)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:43)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:219)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2101)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:370)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2394)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2025-11-10 20:21:39.055
+!MESSAGE Launch configuration mainCalssmethod references non-existing project UdemyJavaProgramming.
+
+!ENTRY org.eclipse.core.resources 4 2 2025-11-10 20:21:41.175
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
+	at org.eclipse.jdt.internal.compiler.util.HashtableOfObjectToInt.get(HashtableOfObjectToInt.java:75)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveNewId(JavaModelManager.java:4540)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveClasspathEntry(JavaModelManager.java:4494)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveClasspathEntries(JavaModelManager.java:4489)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveContainers(JavaModelManager.java:4531)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveProjects(JavaModelManager.java:4595)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.save(JavaModelManager.java:4436)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4415)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4648)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4634)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:394)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:210)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:213)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1171)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1150)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 2 2025-11-10 20:21:41.255
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 566 2025-11-10 20:21:41.255
+!MESSAGE Problems occurred during save.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
+	at org.eclipse.jdt.internal.compiler.util.HashtableOfObjectToInt.get(HashtableOfObjectToInt.java:75)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveNewId(JavaModelManager.java:4540)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveClasspathEntry(JavaModelManager.java:4494)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveClasspathEntries(JavaModelManager.java:4489)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveContainers(JavaModelManager.java:4531)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveProjects(JavaModelManager.java:4595)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.save(JavaModelManager.java:4436)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4415)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4648)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4634)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:394)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:210)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:213)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1171)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1150)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:06.924
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:06.928
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:13.553
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:13.560
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:22.837
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:22.842
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:32.876
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:32.888
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:33.749
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:33.752
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:34.214
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:34.222
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:35.268
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-11-10 20:22:35.273
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.core.resources 4 2 2025-11-11 11:21:45.259
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
+	at org.eclipse.jdt.internal.compiler.util.HashtableOfObjectToInt.get(HashtableOfObjectToInt.java:75)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveNewId(JavaModelManager.java:4540)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveClasspathEntry(JavaModelManager.java:4494)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveClasspathEntries(JavaModelManager.java:4489)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveContainers(JavaModelManager.java:4531)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveProjects(JavaModelManager.java:4595)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.save(JavaModelManager.java:4436)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4415)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4648)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4634)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:394)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:210)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:213)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1171)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1150)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 2 2025-11-11 11:21:45.552
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 566 2025-11-11 11:21:45.552
+!MESSAGE Problems occurred during save.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
+	at org.eclipse.jdt.internal.compiler.util.HashtableOfObjectToInt.get(HashtableOfObjectToInt.java:75)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveNewId(JavaModelManager.java:4540)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveClasspathEntry(JavaModelManager.java:4494)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveClasspathEntries(JavaModelManager.java:4489)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveContainers(JavaModelManager.java:4531)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveProjects(JavaModelManager.java:4595)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.save(JavaModelManager.java:4436)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4415)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4648)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4634)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:394)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:210)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:213)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1171)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1150)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2025-11-11 11:52:37.687
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
+	at org.eclipse.jdt.internal.compiler.util.HashtableOfObjectToInt.get(HashtableOfObjectToInt.java:75)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveNewId(JavaModelManager.java:4540)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveClasspathEntry(JavaModelManager.java:4494)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveClasspathEntries(JavaModelManager.java:4489)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveContainers(JavaModelManager.java:4531)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveProjects(JavaModelManager.java:4595)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.save(JavaModelManager.java:4436)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4415)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4648)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4634)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:394)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:210)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:213)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1171)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2421)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:554)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.ui.ide 4 4 2025-11-11 11:52:40.233
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2025-11-11 11:52:40.235
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 566 2025-11-11 11:52:40.235
+!MESSAGE Problems occurred during save.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "Object.hashCode()" because "key" is null
+	at org.eclipse.jdt.internal.compiler.util.HashtableOfObjectToInt.get(HashtableOfObjectToInt.java:75)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveNewId(JavaModelManager.java:4540)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveClasspathEntry(JavaModelManager.java:4494)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveClasspathEntries(JavaModelManager.java:4489)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveContainers(JavaModelManager.java:4531)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.saveProjects(JavaModelManager.java:4595)
+	at org.eclipse.jdt.internal.core.JavaModelManager$VariablesAndContainersSaveHelper.save(JavaModelManager.java:4436)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4415)
+	at org.eclipse.jdt.internal.core.JavaModelManager.savingTimed(JavaModelManager.java:4648)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4634)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:394)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:210)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:213)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1171)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2421)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:554)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)

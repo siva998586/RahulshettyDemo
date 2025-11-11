@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="JobManagementTest.newjobTest">
+        <methods>
+          <include name="EnterNewJob"/>
+        </methods>
+      </class> <!-- JobManagementTest.newjobTest -->
+      <class name="Admin.TestDemo">
+        <methods>
+          <include name="BrowserLaunch"/>
+          <include name="IdentifyDivElements"/>
+        </methods>
+      </class> <!-- Admin.TestDemo -->
+      <class name="Dashboard.HomeDashboard_LinksTest">
+        <methods>
+          <include name="HD_MyJob"/>
+        </methods>
+      </class> <!-- Dashboard.HomeDashboard_LinksTest -->
+      <class name="MainTest.PerformActivitesTest">
+        <methods>
+          <include name="Activities"/>
+        </methods>
+      </class> <!-- MainTest.PerformActivitesTest -->
+      <class name="MainTest.Activity_ApprovedTest">
+        <methods>
+          <include name="Select_DateTime"/>
+        </methods>
+      </class> <!-- MainTest.Activity_ApprovedTest -->
+      <class name="JobManagementTest.MyJobsTest">
+        <methods>
+          <include name="VerifyMyJobTitle"/>
+          <include name="BrowserLaunch"/>
+          <include name="VerifyMyJobRecords"/>
+        </methods>
+      </class> <!-- JobManagementTest.MyJobsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

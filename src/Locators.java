@@ -20,14 +20,14 @@ public class Locators {
 		driver.findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("Santosh");
 		driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("msk1994@gmail.com");
 		driver.findElement(By.xpath("//input[@type='text'][2]")).clear();
-		driver.findElement(By.cssSelector("input[type='text']:nth-child(3)")).sendKeys("meesala96@gmail.com");
+		driver.findElement(By.cssSelector("input[type='text']:nth-child(3)")).sendKeys("meesala96@gmail.com");  // Selects the third child element of its parent, but only if that third child is also an <input type='text'> element. nth-child(3) means “the 3rd child in order, regardless of type,” not “the 3rd input element.”
 		driver.findElement(By.xpath("//form/input[3]")).sendKeys("9573199044");
 		driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
 		System.out.println (driver.findElement(By.cssSelector("form p")).getText());
 		driver.findElement(By.xpath("//div[@class='forgot-pwd-btn-conainer']/button[1]")).click(); // It is the combination of parent,child tags and index.
 		Thread.sleep(2000);
 		driver.findElement(By.cssSelector("#inputUsername")).sendKeys("rahul");
-		driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy");
+		driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy"); // Regular Expression.
 		driver.findElement(By.id("chkboxOne")).click();
 		driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click();
 				}

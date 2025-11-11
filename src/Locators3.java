@@ -11,10 +11,11 @@ public class Locators3 {
 		//Parent to child and sibling to sibling  
 		//header/div/button[1]/following-sibling::button[1]
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-		System.out.println(driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[1]")).getText());
+		System.out.println(driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[1]")).getText()); // here we attemot to click next to practice button.
 		// child to parent 
 		System.out.println(driver.findElement(By.xpath("//header/div/button[1]/parent::div/button[2]")).getText());
 		driver.close();
+		// All these traversing methods not possible in CssSelector.
 		
 
 	}
